@@ -92,6 +92,18 @@ jsButton.forEach((btn) => {
       ? matchingItem.quantity += 1
       : cart.push({ productId: productId, quantity: 1 });
 
-    console.log(cart);
+
+    //document.querySelector('cart-quantity-js').innerHTML = cartQuantity;
+    //console.log(cartQuantity);
+
+    //console.log(cart);
+
+
+    let cartQuantity = 0;
+
+    cart.forEach((item) => {
+      cartQuantity += item.quantity;
+    });
+    document.querySelector('.cart-quantity-js').innerHTML = cartQuantity;
   })
 })
