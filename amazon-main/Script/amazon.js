@@ -1,4 +1,9 @@
+import { cart } from './../data/cart';
+
 //generate html
+
+//const cart = [];
+
 let productHTML = '';
 
 products.forEach((product) => {
