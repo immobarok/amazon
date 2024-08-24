@@ -27,6 +27,8 @@ export function addToCart(productId) {
     });
   }
 
+  
+
 
   /* let matchingItem;
   matchingItem = cart.find(item => item.productId === productId);

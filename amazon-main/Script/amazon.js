@@ -32,7 +32,7 @@ products.forEach((product) => {
             $${formatCurrency(product.priceCents)}
           </div>
 
-          <div class="product-quantity-container">
+          <div class="product-quantity-container js-product-quantity-container">
             <select>
               <option selected value="1">1</option>
               <option value="2">2</option>
